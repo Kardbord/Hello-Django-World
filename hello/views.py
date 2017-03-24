@@ -5,4 +5,4 @@ import time
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Hello, world." + time.strftime('%c'))
+    return HttpResponse("Hello, world." + time.strftime('%c))
