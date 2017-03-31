@@ -10,6 +10,6 @@ def index(request):
     row.count += 1
     row.save()
     
-    return HttpResponse("Hello,  at visitor #"+ str(row.count) + " " + time.strftime('%c'))
+    return HttpResponse("Hello, visitor #"+ str(row.count) + " at " + time.strftime('%c'))
     #visitor #"+ str(row.count) + "
     
